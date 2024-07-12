@@ -1,12 +1,11 @@
 {
   "extends": "./tsconfig.json",
   "compilerOptions": {
-    "composite": true,
-    "moduleResolution": "node",
-    "module": "CommonJS"
+    "composite": true
   },
   "include": [
     "web/**/*.vite.config.ts",
+    "vitest.config.ts",
     "packages/**/*.ts"
   ]
 }

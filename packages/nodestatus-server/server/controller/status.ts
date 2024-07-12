@@ -1,4 +1,4 @@
-import { compare } from 'bcryptjs';
+import { compare } from 'bcrypt-ts';
 import {
   readServersList,
   createServer,
